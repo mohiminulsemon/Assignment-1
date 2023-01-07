@@ -65,7 +65,7 @@ header {
     justify-content: center;
     gap: 100px;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 130px;
 }
 
 .checkbox {
@@ -85,4 +85,27 @@ ul{
 .check-icon{
     height: 20px;
     width: 20px;
+}
+
+/* my plans styles */
+.my-plans{
+    text-align: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 130px;
+}
+.my-plans h2{
+    margin-bottom: 30px;
+}
+.plans{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+}
+.plans p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.plans h3{
+    margin-top: 10px;
 }
