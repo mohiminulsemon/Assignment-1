@@ -14,6 +14,16 @@
     border: none;
     border-radius: 5px;
 }
+.btn-secondary{
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    background: white;
+    color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
 
 .title {
     font-weight: 700;
@@ -108,4 +118,26 @@ ul{
 }
 .plans h3{
     margin-top: 10px;
+}
+
+/* gradient styles */
+.gradient{
+    height: 250px;
+    border-radius: 6px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 130px;
+    background-image: url(images/watch.png),url(images/gradient2.png);
+    background-blend-mode: overlay;
+}
+
+.gradient div{
+    padding-left: 40px;
+    padding-top: 40px;
+    width: 500px;
+}
+
+.gradient h2{
+    color: aliceblue;
+    margin-bottom: 10px;
 }
