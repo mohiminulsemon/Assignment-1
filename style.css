@@ -15,7 +15,8 @@
     border: none;
     border-radius: 5px;
 }
-.btn-secondary{
+
+.btn-secondary {
     width: 160px;
     height: 64px;
     font-weight: 600;
@@ -40,7 +41,7 @@
 
 /* header styles */
 header {
-    height: 100vh; 
+    height: 100vh;
     background: url(images/banner/banner1.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -86,69 +87,75 @@ header {
     margin-top: 300px;
     text-align: left;
 }
-.checkbox p{
+
+.checkbox p {
     margin-top: 24px;
     margin-bottom: 16px;
 }
 
-ul{
+ul {
     list-style: none;
 }
-.check-icon{
+
+.check-icon {
     height: 20px;
     width: 20px;
 }
 
 /* my plans styles */
-.my-plans{
+.my-plans {
     text-align: center;
     margin-left: 230px;
     margin-right: 230px;
     margin-bottom: 130px;
 }
-.my-plans h2{
+
+.my-plans h2 {
     margin-bottom: 30px;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: center;
     gap: 130px;
 }
-.plans p{
+
+.plans p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.plans h3{
+
+.plans h3 {
     margin-top: 10px;
 }
 
 /* gradient styles */
-.gradient{
+.gradient {
     height: 250px;
     border-radius: 6px;
     margin-left: 350px;
     margin-right: 350px;
     margin-bottom: 130px;
     background-image: url(images/watch.png),
-    linear-gradient(90deg, #c7601b 0%, rgba(0, 95, 172, 0) 100%);
+        linear-gradient(90deg, #c7601b 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.gradient div{
+.gradient div {
     padding-left: 40px;
     padding-top: 40px;
     width: 500px;
 }
 
-.gradient h2{
+.gradient h2 {
     color: aliceblue;
     margin-bottom: 10px;
 }
 
 /* footer */
-footer{
+footer {
     display: flex;
     justify-content: center;
     gap: 400px;
@@ -156,35 +163,42 @@ footer{
     height: 500px;
     margin-bottom: 0px;
 }
-footer  h3 ,h2 ,p{
+
+footer h3,
+h2,
+p {
     color: white;
 }
 
-.future{
+.future {
     height: 400px;
     width: 300px;
     padding-top: 80px;
 }
-.future h2{
+
+.future h2 {
     font-weight: 700;
     font-size: 40px;
 }
-.future p{
+
+.future p {
     font-weight: 400;
     font-size: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.future img{
+
+.future img {
     padding-right: 10px;
 }
 
-.subscribe{
+.subscribe {
     height: 300px;
     width: 200px;
     margin-top: 80px;
 }
-.subscribe input[type = email]{
+
+.subscribe input[type=email] {
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 10px;
