@@ -122,6 +122,12 @@ ul {
     margin-top: 20px;
 }
 
+.photo{
+    float: right;
+    height: 500px;
+    width: 700px;
+}
+
 /* my plans styles */
 .my-plans {
     text-align: center;
