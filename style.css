@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -39,11 +40,12 @@
 
 /* header styles */
 header {
-    height: 700px;
+    height: 100vh; 
     background: url(images/banner/banner1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .head-section {
@@ -127,8 +129,11 @@ ul{
     margin-left: 350px;
     margin-right: 350px;
     margin-bottom: 130px;
-    background-image: url(images/watch.png),url(images/gradient2.png);
+    background-image: url(images/watch.png),
+    linear-gradient(90deg, #c7601b 0%, rgba(0, 95, 172, 0) 100%);
     background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .gradient div{
@@ -156,7 +161,7 @@ footer  h3 ,h2 ,p{
 }
 
 .future{
-    height: 450px;
+    height: 400px;
     width: 300px;
     padding-top: 80px;
 }
