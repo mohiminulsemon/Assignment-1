@@ -42,7 +42,7 @@
 /* header styles */
 header {
     height: 100vh;
-    background: url(images/banner/banner1.png);
+    background: url(./images/banner/banner1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
