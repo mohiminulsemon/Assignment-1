@@ -141,3 +141,50 @@ ul{
     color: aliceblue;
     margin-bottom: 10px;
 }
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    background-color: #151414;
+    height: 500px;
+    margin-bottom: 0px;
+}
+footer  h3 ,h2 ,p{
+    color: white;
+}
+
+.future{
+    height: 450px;
+    width: 300px;
+    padding-top: 80px;
+}
+.future h2{
+    font-weight: 700;
+    font-size: 40px;
+}
+.future p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.future img{
+    padding-right: 10px;
+}
+
+.subscribe{
+    height: 300px;
+    width: 200px;
+    margin-top: 80px;
+}
+.subscribe input[type = email]{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: #151414;
+    border: 1px solid white;
+    border-radius: 5px;
+}
