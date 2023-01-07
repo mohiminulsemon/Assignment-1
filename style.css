@@ -15,12 +15,25 @@
     border-radius: 5px;
 }
 
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
 /* header styles */
 header {
     height: 700px;
-    background: url(./images/banner/banner1.png);
+    background: url(images/banner/banner1.png);
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .head-section {
@@ -44,4 +57,32 @@ header {
     color: #444343;
     margin-top: 24px;
     margin-bottom: 32px;
+}
+
+/* my failures styles */
+.my-failures {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.checkbox {
+    height: 400px;
+    width: 300px;
+    margin-top: 300px;
+    text-align: left;
+}
+.checkbox p{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+ul{
+    list-style: none;
+}
+.check-icon{
+    height: 20px;
+    width: 20px;
 }
