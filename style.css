@@ -114,11 +114,10 @@ ul {
     height: 400px;
     width: 300px;
     margin-top: 250px;
+    margin-left: 300px;
     text-align: left;
 }
-.photo{
-    width: 50%;
-}
+
 .text p{
     margin-top: 20px;
 }
